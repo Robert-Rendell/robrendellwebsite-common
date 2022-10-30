@@ -1,1 +1,2 @@
-export * from './contract/index';
+export * from './contract';
+export * from './utils';

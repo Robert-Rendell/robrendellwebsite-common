@@ -4,7 +4,7 @@ import { DynamoDBNumber, DynamoDBString } from "../common/dynamo-db";
  * Used for reading from DynamoDB and mapping to the model.
  * Supports interchangeable attributes for maximum flexibility on schemaless objects
  */
-interface SudokuDynamoDB {
+export interface SudokuDynamoDB {
   /**
    * 'puzzle' is interchangeable with 'problem'.
    */
@@ -51,5 +51,3 @@ interface SudokuDynamoDB {
    */
   generatorJobId: DynamoDBString,
 }
-
-export { SudokuDynamoDB as default };

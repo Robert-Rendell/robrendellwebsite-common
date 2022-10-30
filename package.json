@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Robert-Rendell/robrendellwebsite-common/issues"
   },
-  "homepage": "https://github.com/Robert-Rendell/robrendellwebsite-common#readme"
+  "homepage": "https://github.com/Robert-Rendell/robrendellwebsite-common#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }

@@ -1,5 +1,3 @@
-interface GenerateSudokuResponse {
+export interface GenerateSudokuResponse {
   generationJobId: string,
 }
-
-export { GenerateSudokuResponse as default };

@@ -1,6 +1,6 @@
 import { SubmissionId } from "../../../models/sudoku/submission";
 import { SudokuId } from "../../../models/sudoku/sudoku";
-import ErrorResponse from "../../common/response/error.response";
+import { ErrorResponse } from "../../common";
 
 export interface SudokuResponse {
   sudokuId: SudokuId,

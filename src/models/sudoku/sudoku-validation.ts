@@ -1,6 +1,4 @@
-interface SudokuValidation {
+export interface SudokuValidation {
   complete: boolean;
   valid: boolean;
 }
-
-export { SudokuValidation as default };

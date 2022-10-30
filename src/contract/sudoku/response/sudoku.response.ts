@@ -1,6 +1,6 @@
-import ErrorResponse from '../../../responses/error.response';
-import { SubmissionId } from '../models/submission';
-import { SudokuId } from '../models/sudoku';
+import { SubmissionId } from "../../../models/sudoku/submission";
+import { SudokuId } from "../../../models/sudoku/sudoku";
+import ErrorResponse from "../../common/responses/error.response";
 
 export interface SudokuResponse {
   sudokuId: SudokuId,

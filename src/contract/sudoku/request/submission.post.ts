@@ -1,4 +1,4 @@
-import { SudokuId } from '../models/sudoku';
+import { SudokuId } from "../../../models/sudoku/sudoku";
 
 /**
  * The POST request body received from the front end

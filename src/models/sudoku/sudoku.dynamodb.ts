@@ -1,4 +1,4 @@
-import { DynamoDBString, DynamoDBNumber } from '../../../models/dynamo-db';
+import { DynamoDBNumber, DynamoDBString } from "../common/dynamo-db";
 
 /**
  * Used for reading from DynamoDB and mapping to the model.

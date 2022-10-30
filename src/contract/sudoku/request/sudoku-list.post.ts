@@ -1,5 +1,5 @@
-import PaginationRequest from '../../../requests/pagination.request';
-import { ListSudokuParams } from '../models/params/list-sudoku-params';
+import { ListSudokuParams } from "../../../models/sudoku/list-sudoku-params";
+import { PaginationRequest } from "../../common/request/pagination.request";
 
 /**
  * The POST request params received from the front end

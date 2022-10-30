@@ -1,4 +1,4 @@
-export interface GenerateSudokuJson {
+export type GenerateSudokuJson = {
   difficulty: string,
   generatorIPAddress: string,
   generatorUserName: string,

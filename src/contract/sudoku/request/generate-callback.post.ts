@@ -1,6 +1,6 @@
-import SudokuPuzzle from "../../../models/sudoku/sudoku-puzzle";
+import { SudokuPuzzle } from "../../../models";
 
-interface PostGenerateSudokuCallbackRequest {
+export interface PostGenerateSudokuCallbackRequest {
   puzzle: SudokuPuzzle,
   solution: SudokuPuzzle,
   difficulty: string,
@@ -22,5 +22,3 @@ interface PostGenerateSudokuCallbackRequest {
    */
   sudokuInsertionSecurityKey: string,
 }
-
-export { PostGenerateSudokuCallbackRequest as default };

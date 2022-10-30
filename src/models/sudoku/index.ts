@@ -7,4 +7,3 @@ export * from './sudoku';
 export * from './sudoku-puzzle';
 export * from './sudoku-validation';
 export * from './sudoku-validation-issue';
-export * from './sudoku.dynamodb';

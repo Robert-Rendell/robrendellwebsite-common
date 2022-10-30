@@ -1,4 +1,4 @@
-import SudokuPuzzle from '../models/sudoku-puzzle';
+import SudokuPuzzle from "../../../models/sudoku/sudoku-puzzle";
 
 interface PostGenerateSudokuCallbackRequest {
   puzzle: SudokuPuzzle,

@@ -1,7 +1,7 @@
-import ErrorResponse from '../../../responses/error.response';
-import { SudokuId } from '../models/sudoku';
-import SudokuValidation from '../models/sudoku-validation';
-import SudokuValidationIssue from '../models/sudoku-validation-issue';
+import { SudokuId } from "../../../models/sudoku/sudoku";
+import SudokuValidation from "../../../models/sudoku/sudoku-validation";
+import SudokuValidationIssue from "../../../models/sudoku/sudoku-validation-issue";
+import ErrorResponse from "../../common/responses/error.response";
 
 /**
  * Alias to meet Response pattern

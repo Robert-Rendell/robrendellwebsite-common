@@ -1,3 +1,1 @@
-type SudokuPuzzle = string;
-
-export { SudokuPuzzle as default };
+export type SudokuPuzzle = string;

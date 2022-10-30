@@ -1,5 +1,5 @@
 import { SudokuId } from './sudoku';
-import SudokuPuzzle from './sudoku-puzzle';
+import { SudokuPuzzle } from './sudoku-puzzle';
 import SudokuValidation from './sudoku-validation';
 
 export type SubmissionId = string;

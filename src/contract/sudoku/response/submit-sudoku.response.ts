@@ -1,6 +1,6 @@
+import { SudokuValidationIssue } from "../../../models";
 import { SudokuId } from "../../../models/sudoku/sudoku";
 import SudokuValidation from "../../../models/sudoku/sudoku-validation";
-import SudokuValidationIssue from "../../../models/sudoku/sudoku-validation-issue";
 import ErrorResponse from "../../common/response/error.response";
 
 /**

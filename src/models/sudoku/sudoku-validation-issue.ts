@@ -1,7 +1,7 @@
 export interface SudokuValidationIssue {
-  row: number,
+  row: number;
   /**
    * Column number
    */
-  col: number,
+  col: number;
 }

@@ -1,3 +1,3 @@
 export interface GenerateSudokuResponse {
-  generationJobId: string,
+  generationJobId: string;
 }

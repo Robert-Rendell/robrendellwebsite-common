@@ -1,1 +1,1 @@
-export * from './s3-url-filename';
+export * from "./s3-url-filename";

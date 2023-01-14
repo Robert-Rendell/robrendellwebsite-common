@@ -1,1 +1,1 @@
-export * from './home-page.response';
+export * from "./home-page.response";

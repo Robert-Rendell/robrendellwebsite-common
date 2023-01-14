@@ -1,24 +1,24 @@
 import { SudokuPuzzle } from "../../../models";
 
 export interface PostGenerateSudokuCallbackRequest {
-  puzzle: SudokuPuzzle,
-  solution: SudokuPuzzle,
-  difficulty: string,
-  clues: number,
+  puzzle: SudokuPuzzle;
+  solution: SudokuPuzzle;
+  difficulty: string;
+  clues: number;
   /**
    * Daisy chained currently from lambda invocation
    */
-  generatorIPAddress: string,
+  generatorIPAddress: string;
   /**
    * Daisy chained currently from lambda invocation
    */
-  generatorUserName: string,
+  generatorUserName: string;
   /**
    * Daisy chained currently from lambda invocation
    */
-  generationJobId: string,
+  generationJobId: string;
   /**
    * The lambda and the back end share a security key for sudoku adding
    */
-  sudokuInsertionSecurityKey: string,
+  sudokuInsertionSecurityKey: string;
 }

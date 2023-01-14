@@ -4,4 +4,3 @@ export interface HomePageResponse {
   travelImages: ImageUrl[];
   originalTravelImages: ImageUrl[];
 }
-

@@ -8,7 +8,8 @@ import { ErrorResponse } from "../../common";
 export interface SubmitSudokuBasicResponse extends SudokuValidation {
   timeTakenMs?: number;
 }
-export interface ExtendedSubmitSudokuResponse extends SubmitSudokuBasicResponse {
+export interface ExtendedSubmitSudokuResponse
+  extends SubmitSudokuBasicResponse {
   validationIssues: SudokuValidationIssue[];
 }
 

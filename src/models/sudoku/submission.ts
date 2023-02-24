@@ -11,6 +11,7 @@ export interface Submission {
    * Undefined if the system has created it when the puzzle has just been started
    */
   sudokuSubmission: SudokuPuzzle | undefined;
+  timesValidated: number;
   timeTakenMs: number;
   dateSubmitted: string;
   ipAddress: string;

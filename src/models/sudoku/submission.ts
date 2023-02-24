@@ -13,7 +13,8 @@ export interface Submission {
   sudokuSubmission: SudokuPuzzle | undefined;
   timesValidated: number;
   timeTakenMs: number;
-  dateSubmitted: string;
+  dateCompleted: string;
+  dateStarted: string;
   ipAddress: string;
   submitterName: string;
 }

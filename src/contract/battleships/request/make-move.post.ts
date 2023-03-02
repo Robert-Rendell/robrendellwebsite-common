@@ -1,3 +1,9 @@
-import { BattleshipsMove } from "../../../models/battleships/battleships-move";
+import {
+  BattleshipsGameId,
+  BattleshipsMove,
+  BattleshipsUsername,
+} from "../../../models/battleships";
 
-export type PostBattleshipsMakeMoveRequest = BattleshipsMove;
+export type PostBattleshipsMakeMoveRequest = BattleshipsMove &
+  BattleshipsGameId &
+  BattleshipsUsername;

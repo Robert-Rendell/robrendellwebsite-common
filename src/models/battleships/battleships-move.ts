@@ -1,8 +1,9 @@
 export type BattleshipsMove = {
-  move: {
-    x: number;
-    y: number;
-  };
-  username: string;
-  gameId: string;
+  coords: BattleshipsMoveCoords;
+  datetime: string;
+};
+
+export type BattleshipsMoveCoords = {
+  x: number;
+  y: number;
 };

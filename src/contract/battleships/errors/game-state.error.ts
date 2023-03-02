@@ -8,7 +8,7 @@ export const BattleshipsInvalidMove = (
   move: BattleshipsMove,
   invalidReason: string
 ): BattleshipsErrorResponse => ({
-  errorMessage: `Battleships move "${move.username}" invalid: ${invalidReason}`,
+  errorMessage: `Invalid Battleships move: ${invalidReason}; ${JSON.stringify(move, null, 2)}`,
 });
 
 export const BattleshipsGameNotFound = (

@@ -1,3 +1,7 @@
+import { BattleshipsBattle } from "./battleships-battle";
+
+export type BattleshipsUsername = string;
 export type BattleshipsUser = {
-  username: string;
+  username: BattleshipsUsername;
+  battles: BattleshipsBattle[];
 };

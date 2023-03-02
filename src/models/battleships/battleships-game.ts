@@ -1,15 +1,16 @@
 import { BattleshipsBoard } from "./battleships-board";
 import { BattleshipGameState } from "./battleships-game-state";
 import { BattleshipsMove } from "./battleships-move";
-import { BattleshipsUser } from "./battleships-user";
+import { BattleshipsUsername } from "./battleships-user";
 
 export type Player1 = 0;
 export type Player2 = 1;
 
+export type BattleshipsGameId = string;
 export type BattleshipsGame = {
-  gameId: string;
+  gameId: BattleshipsGameId;
   boardDimensions: [number, number];
-  playerUsernames: [BattleshipsUser["username"], BattleshipsUser["username"]];
+  playerUsernames: [BattleshipsUsername, BattleshipsUsername];
   playerBoards: [BattleshipsBoard, BattleshipsBoard];
   playerMoves: [BattleshipsMove[], BattleshipsMove[]];
   state: BattleshipGameState;

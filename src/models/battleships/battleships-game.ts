@@ -8,6 +8,7 @@ export type Player2 = 1;
 
 export type BattleshipsGame = {
   gameId: string;
+  boardDimensions: [number, number];
   playerUsernames: [BattleshipsUser["username"], BattleshipsUser["username"]];
   playerBoards: [BattleshipsBoard, BattleshipsBoard];
   playerMoves: [BattleshipsMove[], BattleshipsMove[]];

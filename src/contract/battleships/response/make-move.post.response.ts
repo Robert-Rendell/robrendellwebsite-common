@@ -1,5 +1,5 @@
 import { BattleshipsGame } from "../../../models";
-import { BattleshipsErrorResponse } from "../errors";
+import { BattleshipsErrorResponse } from "../error";
 
 export type PostBattleshipsMakeMoveResponse =
   | BattleshipsGame

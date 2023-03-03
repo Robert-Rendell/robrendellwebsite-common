@@ -1,3 +1,4 @@
-import { BattleshipsGame } from "../../../models";
+import { BattleshipsGame, BattleshipsUser } from "../../../models";
 
-export type GetGameStateRequest = Pick<BattleshipsGame, "gameId">;
+export type GetGameStateRequest = Pick<BattleshipsGame, "gameId"> &
+  Pick<BattleshipsUser, "username">;

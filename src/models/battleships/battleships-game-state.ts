@@ -1,6 +1,6 @@
 export type BattleshipsGameState =
-  "created" |
-  "waiting_for_players" |
-  "configuring" |
-  "playing" |
-  "finished";
+  | "created"
+  | "waiting_for_players"
+  | "configuring"
+  | "playing"
+  | "finished";

@@ -1,3 +1,10 @@
-import { BattleshipsStartConfiguration } from "../../../models";
+import {
+  BattleshipsBoard,
+  BattleshipsGame,
+  BattleshipsUser,
+} from "../../../models";
 
-export type PostStartConfigurationRequest = BattleshipsStartConfiguration;
+export type PostStartConfigurationRequest = {
+  configuration: BattleshipsBoard;
+} & Pick<BattleshipsGame, "gameId"> &
+  Pick<BattleshipsUser, "username">;

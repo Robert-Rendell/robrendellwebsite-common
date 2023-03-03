@@ -4,3 +4,4 @@ export * from "./battleships-board";
 export * from "./battleships-game-state";
 export * from "./battleships-move";
 export * from "./battleships-battle";
+export * from "./battleships-start-configuration";

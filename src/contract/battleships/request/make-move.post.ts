@@ -4,6 +4,7 @@ import {
   BattleshipsUser,
 } from "../../../models/battleships";
 
-export type PostBattleshipsMakeMoveRequest = BattleshipsMove &
-  Pick<BattleshipsGame, "gameId"> &
+export type PostBattleshipsMakeMoveRequest = {
+  move: BattleshipsMove;
+} & Pick<BattleshipsGame, "gameId"> &
   Pick<BattleshipsUser, "username">;

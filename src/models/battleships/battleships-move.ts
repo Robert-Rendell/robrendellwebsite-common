@@ -1,9 +1,4 @@
 export type BattleshipsMove = {
-  coords: BattleshipsMoveCoords;
+  coords: [number, number];
   datetime: string;
-};
-
-export type BattleshipsMoveCoords = {
-  x: number;
-  y: number;
 };

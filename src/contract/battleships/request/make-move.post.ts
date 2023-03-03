@@ -1,9 +1,9 @@
 import {
-  BattleshipsGameId,
+  BattleshipsGame,
   BattleshipsMove,
-  BattleshipsUsername,
+  BattleshipsUser,
 } from "../../../models/battleships";
 
 export type PostBattleshipsMakeMoveRequest = BattleshipsMove &
-  BattleshipsGameId &
-  BattleshipsUsername;
+  Pick<BattleshipsGame, "gameId"> &
+  Pick<BattleshipsUser, "username">;

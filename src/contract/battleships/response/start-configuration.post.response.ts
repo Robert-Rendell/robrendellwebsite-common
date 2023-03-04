@@ -1,6 +1,6 @@
 import { BattleshipsStartConfiguration } from "../../../models";
 import { BattleshipsErrorResponse } from "../error";
 
-export type PostBattleshipsStartConfigurationResponse = BattleshipsStartConfiguration | BattleshipsErrorResponse
-
-
+export type PostBattleshipsStartConfigurationResponse =
+  | BattleshipsStartConfiguration
+  | BattleshipsErrorResponse;

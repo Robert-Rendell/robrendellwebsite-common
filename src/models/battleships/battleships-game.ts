@@ -15,4 +15,5 @@ export type BattleshipsGame = {
   playerMoves: [BattleshipsMove[], BattleshipsMove[]];
   state: BattleshipsGameState;
   turn: Player1 | Player2;
+  winner: BattleshipsUsername;
 };

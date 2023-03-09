@@ -1,10 +1,12 @@
-export type BattleshipsBoard = BattleshipBoardType[][];
+export type BattleshipsBoard = BattleshipsBoardType[][];
 
-export type BattleshipBoardStateTypes = "Hit" | "Miss" | "Unknown";
-export type BattleshipBoardType = 1 | 0 | -1;
-export const BattleshipCellStatus: Record<BattleshipBoardStateTypes, BattleshipBoardType> = {
-    Hit: 1,
-    Miss: 0,
-    Unknown: -1,
-  }
-
+export type BattleshipsBoardStateTypes = "Hit" | "Miss" | "Unknown";
+export type BattleshipsBoardType = 1 | 0 | -1;
+export const BattleshipsBoardState: Record<
+  BattleshipsBoardStateTypes,
+  BattleshipsBoardType
+> = {
+  Hit: 1,
+  Miss: 0,
+  Unknown: -1,
+};

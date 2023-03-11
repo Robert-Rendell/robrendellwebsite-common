@@ -1,6 +1,6 @@
-import { BattleshipsUsername } from "./battleships-user";
+import { BattleshipsUser } from "./battleships-user";
 
-export type BattleshipsBattler = BattleshipsUsername & {
+export type BattleshipsBattler = Pick<BattleshipsUser, "username"> & {
   numberOfMoves: number;
   shipsRemaining: number;
 };

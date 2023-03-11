@@ -16,4 +16,6 @@ export type BattleshipsGame = {
   state: BattleshipsGameState;
   turn: Player1 | Player2;
   winner?: BattleshipsUsername;
+  startedPlayingAt?: string;
+  finishedAt?: string;
 };

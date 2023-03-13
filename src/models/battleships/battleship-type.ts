@@ -8,3 +8,6 @@ export const Battleship = {
 };
 
 export type BattleshipType = keyof typeof Battleship;
+
+export type BattleshipStatus = "sunk" | "unsunk";
+export type BattleshipStatuses = Record<BattleshipType, BattleshipStatus>;
